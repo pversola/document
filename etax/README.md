@@ -10,6 +10,7 @@
 
 
 ---
+## Server
 
 No | Host Name | OS | CPU | MEMORY | DISK | IP Addr | EXT IP Addr
 --- | --- | --- | --- | --- | --- | --- | ---
