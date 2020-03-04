@@ -11,18 +11,18 @@
 
 ---
 
-Host Name | OS | CPU | MEMORY | DISK | IP Addr | EXT IP Addr
---- | --- | --- | --- | --- | --- | ---
-EXTNPAUATLB01 | Centos 7 | 2 | 4 GB | 80 GB | 10.148.1.14 | 139.5.146.54
-EXTNPAUATAP01 | Centos 7 | 4 | 8 GB | 80 GB | 10.148.1.16 | 139.5.146.128
-ETXNPAUATAC01 | Window Server 2016 | 2 | 4 GB | 80 GB | 10.148.1.9 | 139.5.146.211
-ETXNPAUATDB01 | Centos 7 | 4 | 8 GB | 120 GB | 10.148.1.17 | 103.74.254.43 
-ETXNPAUATVPN01 | FusionHub | 2 | 4 GB | 80 GB | 10.148.1.5 | 103.74.255.238
+No | Host Name | OS | CPU | MEMORY | DISK | IP Addr | EXT IP Addr
+--- | --- | --- | --- | --- | --- | --- | ---
+1 | EXTNPAUATLB01 | Centos 7 | 2 | 4 GB | 80 GB | 10.148.1.14 | 139.5.146.54
+2 | EXTNPAUATAP01 | Centos 7 | 4 | 8 GB | 80 GB | 10.148.1.16 | 139.5.146.128
+3 | ETXNPAUATAC01 | Window Server 2016 | 2 | 4 GB | 80 GB | 10.148.1.9 | 139.5.146.211
+4 | ETXNPAUATDB01 | Centos 7 | 4 | 8 GB | 120 GB | 10.148.1.17 | 103.74.254.43 
+5 | ETXNPAUATVPN01 | FusionHub | 2 | 4 GB | 80 GB | 10.148.1.5 | 103.74.255.238
 
 ---
 
 ### Service
-# | Service | TCP | TCP (Usage) | UDP  | UCP (Usage)
+No | Service | TCP | TCP (Usage) | UDP  | UCP (Usage)
 --- | --- | --- | --- | --- | ---
 1 | SSH | 22 | 42200 | - | -
 2 | RDP | 3389 | 49833 | - | -
@@ -30,7 +30,7 @@ ETXNPAUATVPN01 | FusionHub | 2 | 4 GB | 80 GB | 10.148.1.5 | 103.74.255.238
 ---
 
 ### Database
-# | Product | TCP | TCP (Usage) | UDP  | UCP (Usage)
+No | Product | TCP | TCP (Usage) | UDP  | UCP (Usage)
 --- | --- | --- | --- | --- | ---
 1 | MsSQL | 1433 | 33411 | 1434 | 33412
 2 | Oracle | 1521 | 33451 | - | -
@@ -42,6 +42,6 @@ ETXNPAUATVPN01 | FusionHub | 2 | 4 GB | 80 GB | 10.148.1.5 | 103.74.255.238
 ---
 
 ### Application
-# | TCP | TCP (Usage)
+No | TCP | TCP (Usage)
 --- | --- | ---
-1 | 80 | 55001
+1 | 80 | 55001 - 55xxx
