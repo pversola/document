@@ -10,4 +10,4 @@ Change to the /etc directory
 
 ---
 
-[Back](../contents.md)
+[Back](../basic-command.md)

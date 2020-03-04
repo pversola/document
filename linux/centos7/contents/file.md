@@ -52,4 +52,4 @@ Display the last 10 lines of file and "follow" the file as it grows.
 
 ---
 
-[Back](../contents.md)
+[Back](../basic-command.md)

@@ -1,5 +1,6 @@
 # ETXNPAUATAP01
 
+[Back](../README.md)
 ## Instancse
 Detail | Description
 --- | ---
@@ -16,13 +17,15 @@ Visual IP   | --
 
 ## Storage
 
-# | Name | Types | Size | Mouth
+No | Name | Types | Size | Mouth
 --- | --- | --- | --- | ---
 
 ---
 
 ## Firewall
 
+No | Service | Protocal | Port | Remote
+--- | --- | --- | --- | ---
 
 ---
 
@@ -65,3 +68,7 @@ docker-engine
 `sudo yum remove docker-ce`  
 1. delete all images, containers, and volumes:  
 `sudo rm -rf /var/lib/docker`
+
+---
+
+[Back](../README.md)

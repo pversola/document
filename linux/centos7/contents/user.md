@@ -25,4 +25,4 @@ Add the john account to the sales group
 
 ---
 
-[Back](../contents.md)
+[Back](../basic-command.md)

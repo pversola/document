@@ -1,4 +1,5 @@
 # ETXNPAUATLB01
+[Back](../README.md)
 
 ## Instancse
 Detail | Description
@@ -16,14 +17,14 @@ Visual IP   | --
 
 ## Storage
 
-# | Name | Types | Size | Mouth
+No | Name | Types | Size | Mouth
 --- | --- | --- | --- | ---
 
 ---
 
 ## Firewall
 
-# | Service | Protocal | Port | Remote
+No | Service | Protocal | Port | Remote
 --- | --- | --- | --- | ---
 1 | SSH | tcp | 22 | 0.0.0.0/0
 2 | HTTP | tcp | 80 | 0.0.0.0/0
@@ -37,3 +38,7 @@ Visual IP   | --
 ## Imprement
 
 `sudo yum install epel-release -y`
+
+---
+
+[Back](../README.md)

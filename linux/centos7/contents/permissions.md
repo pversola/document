@@ -21,4 +21,4 @@ rw- | r-- | r-- | chmod 644 filename
 
 ---
 
-[Back](../contents.md)
+[Back](../basic-command.md)

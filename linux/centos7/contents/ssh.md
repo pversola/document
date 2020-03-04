@@ -10,4 +10,4 @@ Connect to host using port
 
 ---
 
-[Back](../contents.md)
+[Back](../basic-command.md)

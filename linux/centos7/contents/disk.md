@@ -16,4 +16,4 @@ Display total disk usage off the current directory
 
 ---
 
-[Back](../contents.md)
+[Back](../basic-command.md)

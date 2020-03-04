@@ -1,5 +1,6 @@
 # ETXNPAUATDB01
 
+[Back](../README.md)
 ## Instancse
 Detail | Description
 --- | ---
@@ -16,7 +17,7 @@ Visual IP   | --
 
 ## Storage
 
-# | Name | Types | Size | Mouth
+No | Name | Types | Size | Mouth
 --- | --- | --- | --- | ---
 1 | ETXNPAUATDB01_MSSQL | Corporate | 150 GB | /mssql
 
@@ -24,7 +25,7 @@ Visual IP   | --
 
 ## Firewall
 
-# | Service | Protocal | Port | Remote
+No | Service | Protocal | Port | Remote
 --- | --- | --- | --- | ---
 1 | SSH | tcp | 22 | 0.0.0.0/0
 2 | PING | icmp | 0 (type) - All (code) | 0.0.0.0/0
@@ -34,3 +35,7 @@ Visual IP   | --
 
 ---
 ## Imprement
+
+---
+
+[Back](../README.md)

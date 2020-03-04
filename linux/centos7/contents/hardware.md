@@ -31,4 +31,4 @@ Test for unreadable blocks on disk sda
 
 ---
 
-[Back](../contents.md)
+[Back](../basic-command.md)

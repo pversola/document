@@ -24,4 +24,4 @@ make install
 ```
 ---
 
-[Back](../contents.md)
+[Back](../basic-command.md)

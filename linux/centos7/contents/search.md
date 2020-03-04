@@ -16,4 +16,4 @@ Find files larger than 100MB in /home
 
 ---
 
-[Back](../contents.md)
+[Back](../basic-command.md)
