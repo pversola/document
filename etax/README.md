@@ -10,6 +10,27 @@
 
 
 ---
+
+## Standard Server Name
+
+No | Detail | Lenght 
+---| --- | ---
+1 | Project Name | 3
+2 | Site Name | 3
+3 | Environment | 3
+4 | Service | 2
+5 | Running | 2
+
+Example
+ - Project: ETAX --> ETX
+ - Site: NIPA CLOUD --> NPA
+ - Environment: Develop | UAT | PRODUCTION --> PRD
+ - Serveice: Database --> DB
+ - Running: 1 --> 01
+
+ Host Name is `ETXNPAPRDDB01` 
+
+---
 ## Server
 
 No | Host Name | OS | CPU | MEMORY | DISK | IP Addr | EXT IP Addr
