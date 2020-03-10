@@ -78,9 +78,23 @@ cat > /etc/docker/daemon.json <<EOF
   "insecure-registries" : ["139.5.146.7:5000"]
 }
 EOF
+
+systemctl daemon-reload
+systemctl restart docker
 ```
-Login registry 139.5.146.7:5000
-`docker login -u cwnadmin 139.5.146.7:5000`
+
+Login registry  
+`docker login -u cwnadmin 139.5.146.7:5000`  
+
+### How to cope file from container to local path (Container can't running)
+
+```
+id=$(docker create <IMAGE_NAME>:<TAG>) \
+&& docker cp $id:<FILE IN CONTAINER> <FILE LOCAL> \
+&& docker rm -v $id \
+&& unset $id
+```
+
 ---
 
 [Back](../README.md)
