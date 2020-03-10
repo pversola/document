@@ -69,6 +69,18 @@ docker-engine
 1. delete all images, containers, and volumes:  
 `sudo rm -rf /var/lib/docker`
 
+### Config registry
+```
+cat > /etc/docker/daemon.json <<EOF
+{
+  "metrics-addr" : "0.0.0.0:50000",
+  "experimental" : true,
+  "insecure-registries" : ["139.5.146.7:5000"]
+}
+EOF
+```
+Login registry 139.5.146.7:5000
+`docker login -u cwnadmin 139.5.146.7:5000`
 ---
 
 [Back](../README.md)
