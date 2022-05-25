@@ -35,7 +35,7 @@ No | Service | Protocal | Port | Remote
 
 ---
 ## Imprement
-# **Install MSSQL Server 2019 on CentOS 7**
+### **Install MSSQL Server 2019 on CentOS 7**
 ## 1. Prepare envinronment
 1. Prepare OS:<br>
   `sudo yum install epel-release -y`<br>

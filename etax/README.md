@@ -1,69 +1,11 @@
-# Environment
-## Dev
-> HSM ip address `10.1.248.204:1792`
+# Etax Provider
 
----
-
-## Prod
-> GMC ip address `10.1.254.206:9961`  
-> HSM ip address `10.1.254.204:1792`
+## Table of Contents
+- [Standard](#standard)
+- [UAT Environment](./uat/server.md)
+- [Production Environment](./production/README.md)
 
 
----
-
-## Standard Server Name
-
-No | Detail | Lenght 
----| --- | ---
-1 | Project Name | 3
-2 | Site Name | 3
-3 | Environment | 3
-4 | Service | 2
-5 | Running | 2
-
-Example
- - Project: ETAX --> ETX
- - Site: NIPA CLOUD --> NPA
- - Environment: Develop | UAT | PRODUCTION --> PRD
- - Serveice: Database --> DB
- - Running: 1 --> 01
-
- Host Name is `ETXNPAPRDDB01` 
-
----
-## Server
-
-No | Host Name | OS | CPU | MEMORY | DISK | IP Addr | EXT IP Addr
---- | --- | --- | --- | --- | --- | --- | ---
-1 | [ETXNPAUATLB01](./uat/ETXNPAUATLB01.md) | Centos 7 | 2 | 4 GB | 80 GB | 10.148.1.14 | 139.5.146.54
-2 | [ETXNPAUATAP01](./uat/ETXNPAUATAP01.md) | Centos 7 | 4 | 8 GB | 80 GB | 10.148.1.16 | 139.5.146.128
-3 | [ETXNPAUATAC01](./uat/ETXNPAUATAC01.md) | Window Server 2016 | 2 | 4 GB | 80 GB | 10.148.1.9 | 139.5.146.211
-4 | [ETXNPAUATDB01](./uat/ETXNPAUATDB01.md) | Centos 7 | 4 | 8 GB | 120 GB | 10.148.1.17 | 103.74.254.43 
-5 | [ETXNPAUATVPN01](./uat/ETXNPAUATVPN01.md) | FusionHub | 2 | 4 GB | 80 GB | 10.148.1.5 | 103.74.255.238
-
----
-
-### Service
-No | Service | TCP | TCP (Usage) | UDP  | UCP (Usage)
---- | --- | --- | --- | --- | ---
-1 | SSH | 22 | 42200 | - | -
-2 | RDP | 3389 | 49833 | - | -
-3 | SNMP | - | - | 161, 162 | -
----
-
-### Database
-No | Product | TCP | TCP (Usage) | UDP  | UCP (Usage)
---- | --- | --- | --- | --- | ---
-1 | MsSQL | 1433 | 33411 | 1434 | 33412
-2 | Oracle | 1521 | 33451 | - | -
-3 | MySQL | 3306 | 33421 | - | -
-4 | MariaDB | 3306 | 33431 | - | -
-5 | Postgres | 5432 | 33461 | - | -
-6 | MongoDB | 27017 | 33441 | - | -
-
----
-
-### Application
-No | TCP | TCP (Usage)
---- | --- | ---
-1 | 80 | 55001 - 55xxx
+#### Standard
+- [Server Name](./standard/server-name.md)
+- [Port](./standard/port.md)
