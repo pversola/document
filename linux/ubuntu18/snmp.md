@@ -34,7 +34,3 @@ rocommunity Ex@mPL3 192.168.43.101
 $ sudo systemctl reload snmpd
 $ netstat -nlpu|grep snmp
 ```
-
----
-
-password is `Dbam0n_etaxCSP` To base64 `RGJhbTBuX2V0YXhDU1A=`
